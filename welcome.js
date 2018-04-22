@@ -2,12 +2,12 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-const token = 'NDM3NTUxODA1NTg1NDI0Mzg0.Db3ytw.39K6OXIpFDGVS6jPps2B0E4uNvw';
+const token = 'NDM3NTUxODA1NTg1NDI0Mzg0.Db30lg.livVJHfN8iH9dp7eb-n4AkI6jJ4';
 
 client.on('ready', () => {
   console.log('Sunt pregatit!');
   client.user.setStatus("dnd");
-  client.user.setGame("⚒ Gaming - Romania ⚒")
+  client.user.setGame("⚒ Welcome - Bot ⚒")
 });
 
 client.on('guildMemberAdd', member => {
@@ -21,4 +21,4 @@ client.on('guildMemberAdd', member => {
 `);
 });
 
-client.login('NDM3NTUxODA1NTg1NDI0Mzg0.Db3ytw.39K6OXIpFDGVS6jPps2B0E4uNvw');
+client.login('NDM3NTUxODA1NTg1NDI0Mzg0.Db30lg.livVJHfN8iH9dp7eb-n4AkI6jJ4');
