@@ -1,2 +1,0 @@
-# Gaming----Bot
-Welcome-Bot
