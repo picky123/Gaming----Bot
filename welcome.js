@@ -9,7 +9,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-  const channel = member.guild.channels.find('name', 'arrive');
+  const channel = member.guild.channels.find('name', 'welcome');
   if (!channel) return;
   channel.send(`:hugging: Bun venit în comunitatea noastra, ${member}!
 :black_small_square: Nu uita sa vizitezi. :black_small_square: 
