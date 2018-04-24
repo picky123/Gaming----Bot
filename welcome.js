@@ -13,10 +13,14 @@ client.on('guildMemberAdd', member => {
   if (!channel) return;
   channel.send(`:hugging: Bun venit în comunitatea noastra, ${member}!
 :black_small_square: Nu uita sa vizitezi. :black_small_square: 
-**{#aplicatie-staff}** Pentru a intra in staff, 
-**{#rules}** Regulile serverului.
-**{#announcement}**,anunturile serverului. :tada:
+**Aplicatiile de Staff/PartnerShip/** Pentru a intra in staff, 
+**Regulamentul** Regulile serverului.
+**Index-ul/Informatiile/Anunturi**,anunturile serverului. :tada:
 `);
 });
 
 client.login('NDM3NTUxODA1NTg1NDI0Mzg0.Db30lg.livVJHfN8iH9dp7eb-n4AkI6jJ4');
+
+client.on('ready', () => {
+  client.user.setGame('⚒ Welcome - Bot ⚒', 'https://www.twitch.tv/streamerhouse')
+})
