@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NDM3NTUxODA1NTg1NDI0Mzg0.Db30lg.livVJHfN8iH9dp7eb-n4AkI6jJ4';
+const token = 'NDM5NDEzMDAzMzM1NzYxOTIw.DcSy4w.X8Tkz78oOz7jFQXpYPT4gV2kPT4';
 
 client.on('ready', () => {
   console.log('Sunt pregatit!');
   client.user.setStatus("dnd");
-  client.user.setGame("⚒ Welcome - Bot ⚒")
+  client.user.setGame("⚒ Welcome-Bot ⚒")
 });
 
 client.on('guildMemberAdd', member => {
@@ -19,8 +19,8 @@ client.on('guildMemberAdd', member => {
 `);
 });
 
-client.login('NDM3NTUxODA1NTg1NDI0Mzg0.Db30lg.livVJHfN8iH9dp7eb-n4AkI6jJ4');
+client.login('NDM5NDEzMDAzMzM1NzYxOTIw.DcSy4w.X8Tkz78oOz7jFQXpYPT4gV2kPT4');
 
 client.on('ready', () => {
-  client.user.setGame('⚒ Welcome - Bot ⚒', 'https://www.twitch.tv/streamerhouse')
+  client.user.setGame('⚒ Welcome-Bot ⚒', 'https://www.twitch.tv/streamerhouse')
 })
