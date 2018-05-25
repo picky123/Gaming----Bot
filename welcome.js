@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NDQ5NjQyNTc1NjIwNDcyODMy.Denp0Q.pXVgrHEWRvt1MiPP_WSb-6A3XGU';
+const token = 'NDQ5NjQyNTc1NjIwNDcyODMy.DenriQ.r-TNynTZcXiuP4I3Y3ljackeWQU';
 
 client.on('ready', () => {
   console.log('Sunt pregatit!');
@@ -18,7 +18,7 @@ client.on('guildMemberAdd', member => {
 **Siii multee altele.** 🔥`);
 });
 
-client.login('NDQ5NjQyNTc1NjIwNDcyODMy.Denp0Q.pXVgrHEWRvt1MiPP_WSb-6A3XGU');
+client.login('NDQ5NjQyNTc1NjIwNDcyODMy.DenriQ.r-TNynTZcXiuP4I3Y3ljackeWQU');
 
 client.on('ready', () => {
   client.user.setGame('⚒ Welcome-Bot ⚒', 'https://www.twitch.tv/streamerhouse')
