@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NDM5NDEzMDAzMzM1NzYxOTIw.DcSy4w.X8Tkz78oOz7jFQXpYPT4gV2kPT4';
+const token = 'NDQ5NjQyNTc1NjIwNDcyODMy.Denp0Q.pXVgrHEWRvt1MiPP_WSb-6A3XGU';
 
 client.on('ready', () => {
   console.log('Sunt pregatit!');
@@ -13,13 +13,12 @@ client.on('guildMemberAdd', member => {
   if (!channel) return;
   channel.send(`:hugging: Bun venit în comunitatea noastra, ${member}!
 :black_small_square: Nu uita sa vizitezi. :black_small_square: 
-**Aplicatiile de Staff/PartnerShip/** Pentru a intra in staff, 
 **Regulamentul** Regulile serverului.
 **Index-ul/Informatiile/Anunturi**,anunturile serverului. :tada:
-`);
+**Siii multee altele.** 🔥`);
 });
 
-client.login('NDM5NDEzMDAzMzM1NzYxOTIw.DcSy4w.X8Tkz78oOz7jFQXpYPT4gV2kPT4');
+client.login('NDQ5NjQyNTc1NjIwNDcyODMy.Denp0Q.pXVgrHEWRvt1MiPP_WSb-6A3XGU');
 
 client.on('ready', () => {
   client.user.setGame('⚒ Welcome-Bot ⚒', 'https://www.twitch.tv/streamerhouse')
