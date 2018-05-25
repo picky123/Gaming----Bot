@@ -14,12 +14,7 @@ client.on('guildMemberAdd', member => {
   channel.send(`:hugging: Bun venit în comunitatea noastra, ${member}!
 :black_small_square: Nu uita sa vizitezi. :black_small_square: 
 **Regulamentul** Regulile serverului.
-**Index-ul/Informatiile/Anunturi**,anunturile serverului. :tada:
-**Siii multee altele.** 🔥`);
+**Index-ul/Informatiile/Anunturi**,anunturile serverului. :tada:`);
 });
 
 client.login('NDQ5NjQyNTc1NjIwNDcyODMy.DenriQ.r-TNynTZcXiuP4I3Y3ljackeWQU');
-
-client.on('ready', () => {
-  client.user.setGame('⚒ Welcome-Bot ⚒', 'https://www.twitch.tv/streamerhouse')
-})
